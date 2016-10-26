@@ -1,6 +1,6 @@
 {
   "name": "mongoose-simple-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A node module to load mongoose models from a given directory dinamically.",
   "main": "index.js",
   "scripts": {
