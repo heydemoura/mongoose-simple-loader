@@ -1,0 +1,24 @@
+{
+  "name": "mongoose-model-loader",
+  "version": "0.1.0",
+  "description": "A node module to load mongoose models from a given directory dinamically.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Mongo",
+    "Mongoose",
+    "Models",
+    "Schema",
+    "database",
+    "require",
+    "dynamic",
+    "directory"
+  ],
+  "author": "Heyde Moura <moura.heyde@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^4.6.5"
+  }
+}
