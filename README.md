@@ -1,7 +1,7 @@
 # mongoose-simple-loader
 Load mongoose models from a given directory dinamically.
 
-This module will help you import all of your modules from a given directory, automatically, into your scripts. You will be able to access then as properties of the returned object.
+This module will help you import all of your modules from a given directory, automatically, into your scripts. You will be able to access them as properties of the returned object.
 
 # Requirements
 Mongoose
@@ -10,7 +10,7 @@ NodeJS >= 4.6.0
 # Installation & Use
 To install, go with the regular:
 ```
-npm install mongoose-model-loaded
+npm install mongoose-simple-loader
 ```
 ### Usage
 
