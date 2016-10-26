@@ -6,13 +6,12 @@ var mongoose = require('mongoose');
 var db = function(dir) {
 	this.dir = dir;	
 
-	this.models = {};
-
+	// Loads each model as a property of the module
 	var	_files = fs.readdirSync(dir);
 	for (var file in _files) {
 		if(_files[file][0] !== '.') {
 			var module = _files[file].substr(0, _files[file].length-3);
-			this.models[module] = require(dir + '/' + module);
+			this[module] = require(dir + '/' + module);
 		}
 	}
 
