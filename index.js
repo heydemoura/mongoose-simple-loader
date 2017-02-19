@@ -2,6 +2,7 @@ var fs = require('fs');
 var path = require('path');
 var mongoose = require('mongoose');
 
+mongoose.Promise = require('bluebird');
 // Object that will be exported
 var db = function(dir) {
 	this.dir = dir;	
