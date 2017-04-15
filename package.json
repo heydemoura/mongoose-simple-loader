@@ -19,6 +19,7 @@
   "author": "Heyde Moura <moura.heyde@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "bluebird": "^3.4.7",
     "mongoose": "^4.6.5"
   }
 }
