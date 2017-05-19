@@ -17,7 +17,7 @@ npm install mongoose-simple-loader
 Require the module passing the first argument as your models directoty, and then pass your connection string through the .connect() method.
 ```javascript
 // Load your models
-var db = require('mongoose-model-loader')(__dirname + '/../models_directory/');
+var db = require('mongoose-simple-loader')(__dirname + '/../models_directory/');
 
 // Connect to Database
 // Just an alias for mongoose.connect()
